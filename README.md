@@ -148,6 +148,7 @@ where \(MKT\) is market excess return, \(SMB\) is size, \(HML\) is value, \(RMW\
 
 ```text
 portfolio-choice-performance/
+├── app.py
 ├── main.py
 ├── Portfolio Choice and Performance Evaluation.ipynb
 ├── README.md
@@ -165,6 +166,31 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python main.py
+```
+
+To launch the interactive dashboard:
+
+```bash
+streamlit run app.py
+```
+
+## Streamlit Dashboard
+
+The project includes an interactive Streamlit app for interview and portfolio demonstration use. The dashboard lets users:
+
+- Choose between 30 industry portfolios, FF3 factors, FF5 factors, or an uploaded returns CSV
+- Compare sample estimates, Bayes-Stein shrinkage, and Bayes-Stein plus Ledoit-Wolf shrinkage
+- Toggle long-only and capped-weight constraints
+- View the efficient frontier, Capital Market Line, GMV portfolio, tangency portfolio, and equal-weight benchmark
+- Inspect portfolio weights and download optimized allocations
+- Run a simple in-sample/out-of-sample robustness comparison
+
+To deploy on Streamlit Community Cloud, use:
+
+```text
+Repository: theabhishekujjawal/Portfolio-Choice-and-Performance-Evaluation
+Branch: main
+Main file path: app.py
 ```
 
 ## Key Results & Findings
