@@ -149,7 +149,7 @@ where \(MKT\) is market excess return, \(SMB\) is size, \(HML\) is value, \(RMW\
 ```text
 portfolio-choice-performance/
 ├── main.py
-├── notebook.ipynb
+├── Portfolio Choice and Performance Evaluation.ipynb
 ├── README.md
 ├── story.md
 ├── requirements.txt

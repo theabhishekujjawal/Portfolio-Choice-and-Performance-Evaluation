@@ -1,0 +1,43 @@
+# macOS / Google Drive metadata
+.DS_Store
+**/.DS_Store
+*.gdoc
+*.gsheet
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter local state
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+notebook.ipynb
+
+# Local secrets and environment files
+.env
+.env.*
+
+# Generated analysis outputs
+figure_*.png
+*.log
+
+# Original assignment working files not required for the public repo
+Cleaned_data.xlsx
+Code Prompt.gdoc
+Code with Improved graph.ipynb
+Portfolio Choice and Performance Evaluation.py
+Report_Submission form.docx
+Raw Data/
+Report Write Ups Tasks 2-9/
+
+# Duplicate root-level CSVs; canonical copies live in data/
+ff3_factors_monthly.csv
+ff5_factors_monthly.csv
+industry_portfolios_monthly.csv
+risk_free_rate_monthly.csv
